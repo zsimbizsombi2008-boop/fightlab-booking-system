@@ -1,0 +1,401 @@
+*{
+margin:0;
+box-sizing:border-box ;
+}
+
+.background{background: linear-gradient(#272727, #666666);}
+
+header{
+background: #2b2b2b;
+color:red;
+padding:18px 28px;
+border-bottom:1px solid white;
+}
+
+.Back-button {
+display: inline-block;
+padding: 12px 22px;
+background: linear-gradient(135deg, #b00012, #ff2438);
+color: white;
+text-decoration: none;
+border-radius: 999px;
+font-weight: 700;
+border: 1px solid rgba(255,255,255,0.25);
+box-shadow: 0 8px 24px rgba(255, 36, 56, 0.25);
+transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.Back-button:hover {
+transform: translateY(-3px);
+box-shadow: 0 12px 32px rgba(255, 36, 56, 0.35);
+}
+
+.Box-page{
+color:rgb(221, 217, 217);
+padding:0 32px;   
+}
+
+.H2-div{
+max-width:800px;
+margin:50px auto 0 auto;
+display: flex;
+justify-content: left;
+}
+
+.Box-page h2{
+letter-spacing: 2;
+font-size: 54px;
+padding: 30px 30px 45px 30px;
+}
+
+.Page-middle-container{
+max-width:1200px;
+margin: 0 auto;
+}
+
+.Page-middle-content{
+display:flex;
+margin:0 auto;
+max-width:800px;
+flex-direction: column;
+align-items:center;
+gap:50px;
+}
+
+.Page-middle-content img{
+width:100%;
+min-height:400px;
+object-fit: cover;
+border-radius: 20px;
+
+}
+
+
+.Page-middle-content p{
+font-size:20px;
+}
+
+.Coaches-container{
+max-width:1500px;
+margin: 150px auto 0 auto;
+}
+
+.Page-coaches{
+display: flex;
+flex-direction: column;
+gap:60px;
+align-items: center;
+}
+
+.Page-coaches h3{
+font-size:32px;
+}
+.Péter{
+display:grid;
+max-width: 1200px;
+grid-template-columns: 1fr 1fr;
+gap:20px;
+padding:20px;
+
+align-items:flex-start
+}
+
+.Murinho{
+display:grid;
+max-width: 1200px;
+grid-template-columns: 1fr 1fr;
+gap:20px;
+padding:20px;
+
+align-items:flex-start 
+}
+.Péter p,
+.Murinho p{
+min-width: 0;
+line-height: 1,6;
+font-size:18px;
+}
+.IMG-name{
+max-width: 500px;
+width:100%;
+justify-self: center;
+display: flex;
+flex-direction: column;
+gap:10px;
+align-items: center;
+}
+
+
+.IMG{
+width:100%;
+max-height: 400px;
+object-fit: cover;
+object-position: top;
+border-radius: 12px;
+}
+
+.IMG2{
+width:100%;
+max-height: 400px;
+object-fit: cover;
+object-position: top;
+border-radius: 12px;
+}
+
+.Agenda-table{
+max-width:1000px;
+margin: 100px auto 100px auto;
+padding:40px;
+display:flex;
+flex-direction: column;
+gap:40px;
+}
+
+.Agenda-table h3{
+font-size: 2rem;
+text-align: center;
+}
+
+
+.Agenda-table table{
+width:100%;
+padding:32px;
+margin:0 auto;
+border-collapse: collapse;
+table-layout: auto;
+}
+
+
+.Agenda-table table th,
+.Agenda-table table td{
+border:1px solid rgba(255,255,255,0.16) ;
+background: rgba(20,20,20,0.92) ;
+box-shadow:0 18px 50px rgba(0,0,0,0.28);
+text-align: center;
+padding: 6px 16px;
+font-size:18px;
+}
+
+
+
+.booking-container{
+max-width:500px;
+margin:100px auto 0px auto;
+display:flex;
+justify-content: center;
+padding:48px;
+}
+
+.box-booking{
+width:100%;
+display:flex;
+flex-direction: column;
+gap:36px;
+flex-shrink:1;
+flex-grow: 0;
+align-items: center;
+border-radius: 40px;
+background:#464444
+}
+
+.box-booking h2{
+font-size:36px;
+letter-spacing: 1;
+text-align: center;
+padding-bottom: 12px
+}
+
+.Input-select{
+display:flex;
+flex-direction: column;
+gap:18px;
+padding:0 36px;
+}
+.label-input{
+display: flex;
+flex-direction: column;
+gap:8px;
+padding:8px 12px
+}
+.Level-form-start{
+display:flex;
+flex-direction: column;
+gap:8px;
+}
+.Level-form-start p{
+font-size:16px;
+text-align: center;
+
+}
+
+.Input-select label{
+font-size:24px;
+letter-spacing: 1;
+}
+.Input-select select{
+max-width:100%;
+font-size:20px;
+padding:12px 56px;
+border-radius:30px;
+}
+
+
+.Booking-next-button{
+font-size: 22px;
+font-weight: 600;
+padding:10px 24px;
+background: linear-gradient(135deg, #b00012, #ff2438);
+border-radius: 24px;
+cursor: pointer;
+text-decoration: none;
+color:white;
+opacity: 0.7;
+border:1px solid black
+}
+
+
+.Booking-next-button.able{
+font-size: 22px;
+font-weight: 600;
+padding:10px 24px;
+opacity: 1;
+border:1px solid black
+}
+
+.Box-button-div{
+padding:12px 24px 24px 24px;
+}
+
+
+@media (max-width: 600px){
+.Péter{
+display:flex;
+max-width: 1200px;
+flex-direction: column;
+gap:50px;
+padding:20px;
+
+align-items:flex-start
+}
+
+.Murinho{
+display:flex;
+max-width: 1200px;
+flex-direction: column-reverse;
+gap:50px;
+padding:20px;
+
+align-items:flex-start 
+}
+.Péter p,
+.Murinho p{
+min-width: 0;
+line-height: 1,4;
+font-size:16px;
+}
+.IMG-name{
+max-width: 500px;
+width:100%;
+justify-self: center;
+display: flex;
+flex-direction: column;
+gap:10px;
+align-items: center;
+}
+
+
+.IMG{
+width:100%;
+max-height: 400px;
+object-fit: cover;
+object-position: top;
+border-radius: 12px;
+}
+
+.IMG2{
+width:100%;
+max-height: 400px;
+object-fit: cover;
+object-position: top;
+border-radius: 12px;
+}
+.Agenda-table{
+width:100%;
+margin:70px auto;
+padding:24px 8px;
+}
+.table-wrapper{
+width:100%;
+overflow-x: auto;
+}
+
+.Agenda-table h3{
+font-size: 1.6rem;
+text-align: center;
+}
+
+
+.Agenda-table table{
+min-width:850px;
+padding:0;
+}
+
+
+.Agenda-table table th,
+.Agenda-table table td{
+padding: 10px 12px;
+font-size:15px;
+}
+
+.booking-container{
+max-width:100%;
+padding: 24px 36px;
+}
+
+.box-booking{
+width:100%;
+gap:24px;
+
+}
+
+.box-booking h2{
+font-size:24px;
+letter-spacing: 1;
+padding:24px 48px 12px 48px;
+}
+
+.Input-select{
+gap:14px;
+padding:0 18px;
+width:100%
+}
+.label-input{
+gap:6px;
+padding:6px 20px;
+width:100%
+}
+
+.Input-select label{
+font-size:22px;
+letter-spacing: 1;
+}
+.Input-select input,.Input-select select{
+max-width: 100%;
+width:100%;
+font-size:18px;
+padding:8px 26px;
+}
+
+
+.Booking-next-button{
+font-size: 20px;
+font-weight: 500;
+padding:8px 18px;
+
+
+}
+
+.Box-button-div{
+padding:12px 24px 24px 24px;
+}
+}

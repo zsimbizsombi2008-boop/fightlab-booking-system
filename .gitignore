@@ -1,0 +1,13 @@
+# Telepített csomagok
+node_modules/
+
+# Titkos környezeti változók
+.env
+.env.*
+!.env.example
+
+# Naplófájlok
+*.log
+
+# Szerkesztő helyi beállításai
+.vscode/

@@ -1,0 +1,96 @@
+*{
+margin:0;
+box-sizing: border-box;
+}
+
+main{
+min-height: 100vh;
+background: linear-gradient(to right, rgba(10, 0, 10, 0.897), rgb(23, 0, 29));
+align-content:center
+
+}
+
+.Login-Form{
+max-width:1500px;
+margin-inline:auto;
+align-content: center;
+
+}
+
+.wrapper{
+margin:auto;
+max-width:500px;
+width:100%;
+height:600px;
+align-content: center;
+
+}
+
+form{
+color:white;
+background-color: black;
+border-radius: 30px;
+display:flex;
+flex-direction: column;
+gap:2.8rem;
+}
+
+form h2{
+text-align: center;
+font-size:clamp(1.8rem, 2.8vw , 2.4rem);
+margin-top:30px;
+}
+
+.Inputs-button{
+display:flex;
+flex-direction: column;
+gap:5.2rem;
+margin-inline: 60px;
+}
+
+.Inputs{
+display:flex;
+flex-direction: column;
+gap:1.8rem;
+}
+
+#input{
+width:100%;
+font-size:24px;
+border-radius: 50px;
+padding:8px 14px;
+border:none ;
+}
+
+.Button-div{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 30px;
+}
+
+.Button-div button{
+font-size:22px;
+font-weight: 800px;
+padding:16px 24px;
+border-radius: 24px;
+background-color: rgb(48, 4, 54);
+border:none;
+color: white;
+cursor: pointer;
+
+}
+
+.Response-message{
+margin-top:12px;
+font-size:16px;
+}
+
+.error{
+color:red;
+}
+
+.success{
+color:green;
+}
+

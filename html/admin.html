@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body>
+<header>
+<div class="header-wrapper">
+<div class="Logout-div">
+<button id="Logout" class="Logout" type="button">Kijelentkezés</button>
+</div>
+<h1>Admin oldal</h1>
+</div>
+</header>
+<main>
+<div class="Buttons">
+<div class="Refresh hidden">
+<button class="Refresh-button" type="button">Frissítés</button>
+</div>
+<div class="Button-Area"></div>
+<div class="Button-div">
+<button id="Primary-button" class="Primary-button" type="button">Jelentkezők lekérése</button>
+<p class="ButtonResponse"></p>
+</div>
+<div class="Spinner hidden">
+<div class="Spinner-circle"></div>
+</div>
+</div>
+<div class="List hidden">
+
+</div>
+<div class="Empty-message hidden">
+<p>Jelenleg nincs aktív foglalás.</p>
+</div>
+</main> 
+<div class="Modal">
+<p class="modal-message"></p>
+</div>
+<script src="../admin.js"></script>
+</body>
+</html>

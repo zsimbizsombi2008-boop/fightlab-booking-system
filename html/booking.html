@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/booking.css">
+</head>
+<body>
+<header>
+<a href="./box-detail.html">⟨ Vissza</a>
+</header>
+ <main>
+    <section class="Booking-hero">
+<div class="Booking-starter">
+<h1>Az első lépés mindig a legfontosabb.</h1>
+<p>
+Nincs szükséged több éves tapasztalatra ahhoz, hogy elkezdhesd.
+Csak az első lépést kell megtenned. Add meg az adataidat, válaszd ki a számodra megfelelő edzést, és csapatunk hamarosan felveszi veled a kapcsolatot.
+</p>
+</div>
+    </section>
+
+<section class="Booking-List">
+<div class="Picked-Card">
+<div class="Picked-List">
+<h2>Próbaedzés</h2>
+<div class="Picked-sport">
+<div class="Sport">
+<h3>Sport:</h3>
+<p class="Sport-p"></p>
+</div>
+<div class="Picked-Level">
+<h3>Szint:</h3>
+<p class="Level-p"></p>
+</div>
+</div>
+
+<div class="List">
+<h2>Házirend</h2>
+<ul>
+
+<li>
+<p><strong style="color:red">✓</strong> Érkezz edzés előtt legalább 10percel.</p>
+</li>
+<li>
+<p><strong style="color:red">✓</strong> Hozz kényelmes ruházatot és fogvédőt.</p>   
+</li>
+<li>
+<p><strong style="color:red">✓</strong> Próbaedzést lemondani legkesőbb az edzés előtt 1 nappal lehet.</p>   
+</li>
+<li>
+ <p><strong style="color:red">✓</strong> Havi díj fizetésének az adott hónap 30.-ig kell megtörténnie.</p>
+</li>
+<li>
+<p><strong style="color:red">✓</strong> Ha elakadna a support emailünkön megteheti vagy telefonon.</p> 
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="Booking-form">
+<form>
+<div class="Title">
+<h2>Foglalás</h2>
+<p>Töltsd ki az ürlapot, küldd el és várj amíg felvesszük veled a kapcsolatot.</p>
+</div>
+<div class="Inputs-Labels" >
+<div class="Input-label">
+<label for="name">Név</label>
+<input id="name" class="name" type="text" placeholder="pl. Kovács István">
+<p id="name-error"></p>
+</div>
+<div class="Input-label">
+<label for="email">Email</label>
+<input id="email" class="email" type="email" placeholder="pl. kovacs.istvan@gmail.com">
+<p id="email-error"></p>
+</div>
+<div class="Input-label">
+<label for="phone">Telefonszám</label>
+<input id="phone" class="phone" type="text" placeholder="pl. +36705002222">
+<p id="phone-error"></p>
+</div>
+<div class="Input-label">
+<label for="age">Életkor</label>
+<input id="age" class="age" type="number" placeholder="pl. 21">
+<p id="age-error"></p>
+</div>
+<div class="Input-label">
+<label for="city">Város</label>
+<input id="city" class="city" type="text" placeholder="pl. Budapest">
+<p id="city-error"></p>
+</div>
+<div class="Input-label">
+<label for="note">Megjegyzés</label>
+<textarea id="note" class="note" type="text" maxlength="500" placeholder="pl. azt szeretnem mondani.. "></textarea>
+<p id="note-error"></p>
+</div>
+<div class="Button-div">
+<button class="Primary-button" id="Primary-button" type="submit">Elküldés</button>
+</div>
+<div class="Success-message">
+<p ></p>
+</div>
+</div>
+</form>
+</div>
+</section>
+ </main>
+ <script src="../booking.js"></script>   
+</body>
+</html>
+
